@@ -1,0 +1,10 @@
+
+services:
+  alpine:
+    image: alpine:latest
+    container_name: alpine
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    command: sh
+
